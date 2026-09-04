@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { AlertsPage } from "@/components/sif/pages";
+export const Route = createFileRoute("/alerts")({ head: () => ({ meta: [{ title: "Alerts | OIL SIF Sentinel" }, { name: "description", content: "Actionable alerts from recurring SIF precursor signals." }, { property: "og:title", content: "Alerts | OIL SIF Sentinel" }, { property: "og:description", content: "Monitor critical precursor spikes and review SLAs." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: AlertsPage });

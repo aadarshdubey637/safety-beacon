@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { AnalyzePage } from "@/components/sif/pages";
+export const Route = createFileRoute("/analyze")({ head: () => ({ meta: [{ title: "Analyze Report | OIL SIF Sentinel" }, { name: "description", content: "Analyze safety report text or upload a CSV through the prototype SIF engine." }, { property: "og:title", content: "Analyze Report | OIL SIF Sentinel" }, { property: "og:description", content: "Run a recall-first prototype analysis on a safety observation." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: AnalyzePage });

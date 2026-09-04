@@ -1,0 +1,5 @@
+- [x] Establish calm audit command-center design system and shared shell
+- [x] Add synthetic demo dataset and recall-first mock analysis engine
+- [x] Build dashboard, report explorer/detail, review workflow, and CSV analysis
+- [x] Add patterns, rules, sites, alerts, settings, and mock login routes
+- [ ] Validate build and preview interactions

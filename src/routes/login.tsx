@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { LoginPage } from "@/components/sif/pages";
+export const Route = createFileRoute("/login")({ head: () => ({ meta: [{ title: "Sign In | OIL SIF Sentinel" }, { name: "description", content: "Enter the OIL SIF Sentinel prototype workspace." }, { property: "og:title", content: "Sign In | OIL SIF Sentinel" }, { property: "og:description", content: "Mocked role-based access for the SIF Sentinel prototype." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: LoginPage });
