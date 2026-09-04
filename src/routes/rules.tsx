@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { RulesPage } from "@/components/sif/pages";
+export const Route = createFileRoute("/rules")({ head: () => ({ meta: [{ title: "Life-Saving Rules | OIL SIF Sentinel" }, { name: "description", content: "IOGP Life-Saving Rule distribution across assessed observations." }, { property: "og:title", content: "Life-Saving Rules | OIL SIF Sentinel" }, { property: "og:description", content: "Map high-risk observations to IOGP Life-Saving Rules." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: RulesPage });

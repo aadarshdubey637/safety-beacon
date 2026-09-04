@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { ReportDetailPage } from "@/components/sif/pages";
+export const Route = createFileRoute("/reports/$reportId")({ head: () => ({ meta: [{ title: "Report Analysis | OIL SIF Sentinel" }, { name: "description", content: "Explainable AI assessment, precursor extraction, and HSE intervention workflow." }, { property: "og:title", content: "Report Analysis | OIL SIF Sentinel" }, { property: "og:description", content: "Review AI reasoning and precursor signals for a safety observation." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: ReportDetailPage });

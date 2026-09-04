@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { ReviewPage } from "@/components/sif/pages";
+export const Route = createFileRoute("/review")({ head: () => ({ meta: [{ title: "HSE Review | OIL SIF Sentinel" }, { name: "description", content: "Confirm or override provisional AI classifications in the HSE review queue." }, { property: "og:title", content: "HSE Review | OIL SIF Sentinel" }, { property: "og:description", content: "Human verification and override workflow for SIF assessments." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: ReviewPage });
